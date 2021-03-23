@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block body1 %}
+{% endblock %}
+
+{% block body2 %}
+{% endblock %}
+
+{% block body3 %}
+{% endblock %}
+
+{% block body4 %}
+    <h1>Create new Event</h1>
+
+    {{ include('event/_form.html.twig') }}
+
+    <a href="{{ path('event_signal') }}">back to list</a>
+
+{% endblock %}
+{% block body5 %}
+{% endblock %}
+
+{% block body6 %}
+{% endblock %}
