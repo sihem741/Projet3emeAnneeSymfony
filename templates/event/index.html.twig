@@ -13,9 +13,17 @@
 
 
 {% block body4 %}
+
     <div class="album py-5 bg-light">
         <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <div class="row">
+
                 {% for event in events %}
 
                         <a href="{{ path('event_show', { 'id': event.id }) }}" style="color: black">
@@ -35,7 +43,6 @@
 
 
                                                     <button type="button" class="btn btn-sm btn-outline-secondary"><a href="{{ path('event_participer', { 'id': event.id }) }}">participer</a></button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary"><a href="{{ path('event_edit', {'id': event.id}) }}">edit</a></button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary"><a href="{{ path('event_signal', { 'id': event.id }) }}">Signaler</a></button>
 
                                                 {% if  u  in event.users %}
@@ -66,6 +73,8 @@
 {% endblock %}
 
 {% block body5 %}
+{% endblock %}
+{% block body6 %}
 {% endblock %}
 
 

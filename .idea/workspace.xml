@@ -1,222 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36f25f68-3e17-401c-90b4-afe6b5fd6667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pidev0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210301235722.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210302003255.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210319095049.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210319181739.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/jquery.cleditor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/280x280-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/280x280-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/280x280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/385x289.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/43594c62da399db55b445bdb2f4ef20f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/94x94.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/about-img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/about-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/about_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/aboutus_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/ad_350x350.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/ad_here.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/angeles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/bg-shape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/category-icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/category-icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/category-icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/category-icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/category-icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/category-icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/category-icon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/ceremonie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/chicago.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/cities_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/cities_2-300x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/cities_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/cities_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/cities_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/cities_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/contactus_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/event1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/event2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon-icon/apple-touch-icon-144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon-icon/apple-touch-icon-57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon-icon/apple-touch-icon-72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon-icon/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/foote_style_3_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/foote_style_4_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/francisco.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/google-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/happy-client-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/happy-client-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/happy-client-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/how_it_work_bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/how_work_icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/how_work_icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/how_work_icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/intro-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/listing_img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/map_search_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/partner_logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/partner_logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/partner_logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/partner_logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/pricing_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/step-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/step-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/step-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/testimonial_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/video-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/infobox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/interface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.cleditor.min.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/leaflet.markercluster.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/css/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/css/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/css/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/css/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/css/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/css/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/css/switcher.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/switcher/js/switcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CommentaireController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/EventController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Commentaire.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Recherche.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/CommentaireType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/EventType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/RechercheeType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CommentaireRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/EventRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ImagesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Event.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/commentaire/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/commentaire/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/commentaire/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/commentaire/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/commentaire/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/commentaire/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/Recherche.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/Signal.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/front/participationFailed.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/front/participationSuccess.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/indexAdmin.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/event/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.idea/pidev0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuseeArt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evenement/image/qrcode/qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getprix())" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Recu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/RecuRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/apievent/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/event/front/index1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/event/front/showback.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EventController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/commentaire/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/commentaire/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/event/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/event/front/_delete_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/event/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/event/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/event/front/participationFailed.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/event/front/participationFailed.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/event/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/event/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/event/indexAdmin.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/event/front/indexback.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/event/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/event/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +43,27 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/MuseeArt" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/MuseeArt" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -336,12 +171,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1pCMOHqA9Pd5HncWhmBBe3Os7sy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -354,6 +192,8 @@
       <recent name="C:\xamp\htdocs\pidev0\pidev0\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xamp\htdocs\pidev0\pidev0\templates\event\front" />
+      <recent name="C:\xamp\htdocs\pidev0\pidev0\templates\event\back" />
       <recent name="C:\xamp\htdocs\pidev0\pidev0\templates\" />
     </key>
   </component>
@@ -375,42 +215,131 @@
       <workItem from="1615121807898" duration="1020000" />
       <workItem from="1615304509098" duration="9060000" />
       <workItem from="1615481311915" duration="22157000" />
-      <workItem from="1616494908520" duration="2981000" />
+      <workItem from="1616494908520" duration="11710000" />
+      <workItem from="1616581732043" duration="11010000" />
+      <workItem from="1616794416622" duration="17480000" />
+      <workItem from="1617012153301" duration="25591000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/xamp/htdocs/pidev0/pidev0/src/Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="430" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617197364444">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1617197364443" />
     <state x="476" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1614730889001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614730889001" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614931823607">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617197415061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614931823607" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615506134302">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1617197415061" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616623312868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1615506134302" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1616496783470">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616623312868" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1616963099169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616496783470" />
-    <state x="561" y="261" key="Github.ShareDialog" timestamp="1616496953820">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616963099169" />
+    <state x="561" y="261" key="Github.ShareDialog" timestamp="1616505912877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1616496953820" />
+    <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1616505912877" />
     <state x="468" y="68" key="Github.UntrackedFilesDialog" timestamp="1616497019466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="468" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616497019466" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1616966891931">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1616966891931" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1614901198865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1614901198865" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1616582299911">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616582299911" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1617036111469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1617036111469" />
+    <state x="100" y="100" width="423" height="528" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617207474295">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="423" height="528" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1617207474295" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -68,7 +68,7 @@
 
     <a href="{{ path('event_edit', {'id': event.id}) }}">edit</a>
 
-    {{ include('event/_delete_form.html.twig') }}
+    {{ include('event/_form.html.twig') }}
 
 <div class="top-campaign">
     <h3 class="title-3 m-b-30">Commentaires : </h3>
@@ -102,4 +102,9 @@
         </div>
     </div>
 {% endblock %}
+    {% block body5 %}
+    {% endblock %}
+
+    {% block body6 %}
+    {% endblock %}
 

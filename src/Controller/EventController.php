@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Event;
 use App\Entity\Images;
 use App\Entity\Recherche;
+use App\Entity\Recu;
 use App\Form\EventType;
 use App\Form\RechercheeType;
 use App\Repository\EventRepository;
@@ -15,6 +16,8 @@ use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\User;
 use App\Entity\Commentaire;
 use App\Form\CommentaireType;
+use Endroid\QrCode\QrCode;
+
 
 /**
  * @Route("/event")
@@ -25,10 +28,11 @@ class EventController extends AbstractController
     /**
      * @Route("/participer{id}", name="event_participer", methods={"GET"})
      */
-    public function participerAction($id)
+    public function participerAction($id, \Swift_Mailer $mailer)
     {
 
         $em = $this->getDoctrine()->getManager();
+        $Recu = new Recu();
         $datej = new \DateTime('now');
         $datej2 = $datej->format('Y-m-d');
         $event = $em->getRepository(Event::class)->find($id);
@@ -51,10 +55,35 @@ class EventController extends AbstractController
 
         } else {
             $users = $event->getUsers();
+            $Recu->setUser($user);
+            $Recu->setEvent($event);
+            $Recu->setPrixrecu($event->getprix());
+            $em->persist($Recu);
             $users->add($user);
             $event->setUsers($users);
             $event->setNbPlaces($event->getNbPlaces() - 1);
             $em->persist($event);
+
+           /*$qrCode = new QrCode('Bonjour Monsieur : ' . $user->getNom() . ' , ceci votre ticket vous avez participé à l\'événement : ' . $event->getNom() .
+                ' , Date debut : ' .  $datedb1);
+            header('Content-Type: image/png');
+            $qrCode->writeFile('Evenement/image/qrcode/qrcode.png');*/
+
+            $email = $user->getGmail();
+            $id = $user->getId();
+            $message = (new \Swift_Message())
+                ->setSubject($event->getNom())
+                ->setFrom('projet.pidev1@gmail.com')
+                ->setTo($email)
+                ->setBody(
+                    'votre ticket ');
+                /*->attach(Swift_Attachment::fromPath('Evenement/image/qrcode/qrcode.png')
+                    ->setDisposition('inline'));*/
+
+
+
+            $mailer->send($message);
+
             $em->flush();
             $msg = "Vous avez particper a cet evenemment avec succé !! ";
             return $this->render('event/front/participationSuccess.html.twig', array('msg' => $msg));
@@ -117,7 +146,18 @@ class EventController extends AbstractController
 
         ]);
     }
+    /**
+     * @Route("back/", name="event_indexback", methods={"GET"})
+     */
+    public function indexback(EventRepository $eventRepository): Response
+    {
+        $u ="gmiza";
+        return $this->render('event/indexback.html.twig', [
+            'events' => $eventRepository->findAll(),
+            'u'=>$u
 
+        ]);
+    }
     /**
      * @Route("/new", name="event_new", methods={"GET","POST"})
      */
@@ -151,6 +191,9 @@ class EventController extends AbstractController
      */
     public function show(Request $request,Event $event): Response
     {
+        
+
+
 
         $em = $this->getDoctrine()->getManager();
         $id= $event->getId();
@@ -181,6 +224,43 @@ class EventController extends AbstractController
     }
 
 
+    /**
+     * @Route("/back/{id}", name="event_showback")
+     *  Method({"GET", "POST"})
+     */
+    public function showback(Request $request,Event $event): Response
+    {
+
+
+
+
+        $em = $this->getDoctrine()->getManager();
+        $id= $event->getId();
+        //$comments = $em->getRepository(Commentaire::class)->findByEvent(2);
+        $comments = $em->getRepository(Commentaire::class)->findByevent($event);
+        $comment = new Commentaire();
+        $form = $this->createForm(CommentaireType::class, $comment);
+        $form->handleRequest($request);
+        //$userid = $this->getUser()->getId();
+        $user = $em->getRepository(User::class)->find(1);
+        if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager = $this->getDoctrine()->getManager();
+            $comment->setEvent($event);
+            $comment->setUser($user);
+            $em->persist($comment);
+            $em->flush();
+            $entityManager->persist($comment);
+            $entityManager->flush();
+        }
+        return $this->render('event/showback.html.twig', array(
+
+            'event' => $event,
+            'comments' => $comments,
+            'form' => $form->createView()
+
+
+        ));
+    }
     /**
      * @Route("/{id}/edit", name="event_edit", methods={"GET","POST"})
      */
@@ -233,13 +313,12 @@ class EventController extends AbstractController
     public function signalAction($id){
         $em = $this->getDoctrine()->getManager();
         $event = $em->getRepository('Event::class')->find($id);
-        $userid = $this->getUser()->getId();
-        $user = $em->getRepository('Event::class')->find($userid);
+       // $userid = $this->getUser()->getId();
+        $user = $em->getRepository(User::class)->find(3);
         $users = $event->getusersSignal();
         if($event->getusersSignal()->contains($user)) {
             $msg = "vous avez deja signalé cet evennement ";
             return $this->render('@event/front/participationFailed.html.twig', array('msg'=>$msg));
-
 
         }
         else {
